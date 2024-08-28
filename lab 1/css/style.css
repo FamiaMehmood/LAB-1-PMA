@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 100px;
+}
+
+.parent-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-child img{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+}
+.nav-items{
+    display: flex;
+}
+
+.nav-items li{
+    list-style: none;
+    margin: 0 20px;
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+.banner-parent-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.left-banner-child{
+    width: 50%;
+}
+
+.left-banner-child h2{
+    font-size: 40px;
+}
+
+.left-banner-child p{
+    font-size: 14px;
+    color: gray;
+}
+
+.right-banner-child img{
+    width: 300px;
+    height: 300px;
+}
+
+.parent-food-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.food-paragraph{
+    font-size: 14px;
+    color: gray;
+}
+.parent-food-div button{
+    border: none;
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+
+footer{
+    background-color: lightslategray;
+    padding: 20px;
+    color: white;
+}
+
+.footer-parent-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-parent .about-intro{
+    width: 50%;
+}
+marquee{
+    background-color: blueviolet;
+    color: aqua;
+}
